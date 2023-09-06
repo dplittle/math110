@@ -20,7 +20,7 @@ st.set_page_config(
 )
 
 # Load data
-data = pd.read_csv("https://github.com/dplittle/math110/blob/master/streamlit/life-expectancy_US_Worlds.csv",
+data = pd.read_csv("life-expectancy_US_Worlds.csv",
                    index_col=0).drop(columns=['World'])
 
 
